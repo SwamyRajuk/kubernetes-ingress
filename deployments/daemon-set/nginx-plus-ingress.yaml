@@ -3,6 +3,8 @@ kind: DaemonSet
 metadata:
   name: nginx-ingress
   namespace: nginx-ingress
+  labels:
+    app.kubernetes.io/core-name: nginx-ingress
 spec:
   selector:
     matchLabels:
