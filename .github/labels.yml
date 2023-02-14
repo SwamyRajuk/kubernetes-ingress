@@ -3,7 +3,7 @@
   name: backlog
 - color: A90EA3
   description: Pull requests/issues that are candidates to be backlog items
-  name: backlog-candidate
+  name: backlog candidate
 - color: fc2929
   description: An issue reporting a potential bug
   name: bug
@@ -60,7 +60,7 @@
   name: question
 - color: FEF2C0
   description: Pull requests that don't need to be added to the changelog
-  name: skip-changelog
+  name: skip changelog
 - color: 8E7888
   description: Pull requests/issues with no activity
   name: stale
