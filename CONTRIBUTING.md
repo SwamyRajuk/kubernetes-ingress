@@ -24,7 +24,6 @@ You can also join our [Community Slack channel](https://community.nginx.org/join
 
 Please reserve Github issues for feature requests and bugs rather than general questions.
 
-
 ## Getting Started
 
 Follow our [Installation Guide](https://github.com/nginxinc/kubernetes-ingress/blob/main/docs/content/installation) to get the NGINX Ingress Controller up and running.
@@ -37,9 +36,9 @@ Read the [documentation](https://github.com/nginxinc/kubernetes-ingress/tree/mai
 * The project follows a standard Go project layout
     * The main code is found at `cmd/nginx-ingress/`
     * The internal code is found at `internal/`
-    * Build files for Docker and CI are found under `build/`
+    * Build files for Docker are found at `build/`
+    * CI files are found at `.github/workflows/`
     * Deployment yaml files, and Helm files are found at `deployments/`
-    * The project dependencies are found at `vendor/`. We use [Go Modules](https://github.com/golang/go/wiki/Modules) for managing dependencies.
 
 ## Contributing
 
@@ -59,12 +58,16 @@ To suggest an new feature or other improvement, create an issue on Github and ch
 
 **Note**: Remember to create a feature request / bug report issue first to start a discussion about the proposed change.
 
+### Issue lifecycle
+
+* When an issue or PR is created, it will be triaged by the core development team and assigned a label to indicate the type of issue it is (bug, feature request, etc) and to determine the milestone. Please see the [Issue Lifecycle](https://github.com/nginxinc/kubernetes-ingress/blob/main/ISSUE_LIFECYCLE.md) document for more information.
+
 ## Style Guides
 
 ### Git Style Guide
 
 * Keep a clean, concise and meaningful git commit history on your branch, rebasing locally and squashing before submitting a PR
-* Follow the guidelines of writing a good commit message as described here https://chris.beams.io/posts/git-commit/ and summarised in the next few points
+* Follow the guidelines of writing a good commit message as described here https://chris.beams.io/posts/git-commit/ and summarized in the next few points
     * In the subject line, use the present tense ("Add feature" not "Added feature")
     * In the subject line, use the imperative mood ("Move cursor to..." not "Moves cursor to...")
     * Limit the subject line to 72 characters or less
