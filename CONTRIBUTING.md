@@ -22,7 +22,7 @@ To ask a question please use [Github Discussions](https://github.com/nginxinc/ku
 
 You can also join our [Community Slack channel](https://community.nginx.org/joinslack) which has a wider NGINX audience.
 
-Please reserve Github issues for feature requests and bugs rather than general questions.
+Please reserve GitHub issues for feature requests and bugs rather than general questions.
 
 ## Getting Started
 

@@ -10,7 +10,7 @@ To ensure a balance between work carried out by the NGINX engineering team while
 
 3. Determine issue type: This is done with automation where possible, and manually by the owner where necessary. The associated label is applied to the issue.
    #### Possible Issue Types
-   `needs more info`: The owner should use the issue to request information from the creator. If we don't receive the needed information within 7 days automation closes the issue.
+   `needs more info`: The owner should use the issue to request information from the creator. If we don't receive the needed information within 7 days, automation closes the issue.
 
    `bug`: The implementation of a feature is not correct.
 
